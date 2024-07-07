@@ -1,6 +1,88 @@
 body {
-  background-color: lightblue;
+  color: #e12c10e1;
+  font-family: monospace;
+  font-size: 1.5em;
+  margin: 0;
 }
-h1 {
-  color: tomato;
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 40px;
+  position: fixed;
+  width: 100%;
+}
+
+header > nav a {
+  margin-top: 20px;
+  padding: 10px;
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.picture1 {
+  height: 100vh;
+  background-image: url("./mars_1.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.title1 {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  color: white;
+}
+.picture2 {
+  height: 100vh;
+  background-image: url("./mars_2.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.title2 {
+  display: inline-block;
+  position: sticky;
+  bottom: 50px;
+  left: 50px;
+  color: white;
+}
+.picture3 {
+  height: 100vh;
+  background-image: url("./mars_3.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.title3 {
+  position: sticky;
+  display: inline-block;
+  bottom: 70px;
+  left: 50px;
+  color: white;
+}
+
+.btn {
+  border: 2px solid black;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  color: white;
+  width: 200px;
+  font-family: monospace;
+}
+
+footer {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  color: whitesmoke;
+  background-color: black;
+  font-family: monospace;
+  font-size: larger;
 }
